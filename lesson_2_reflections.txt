@@ -1,0 +1,20 @@
+Question: What happens when you initialize a repository? Why do you need to do it?
+Answer: You create a repository. You do this so you can work inside of it.
+
+Question: How is the staging area different from the working directory and the repository? What value do you think it offers?
+Answer:It's different because it is where you put what you want to commit. It offers a lot of value because you are able to specifically choose which files you want to be commited so you aren't creating bad commits for other files.
+
+Question: How can you use the staging area to make sure you have one commit per logical change?
+Answer: You can put the things that are at good commit points in the staging area then commit those.
+
+Question: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Answer: It's helpful keeping it organized because you are able to see different versions of the files. You are able to test new features without it changing the main file.
+
+Question:How do the diagrams help you visualize the branch structure?
+Answer: It helps show how branches are related.
+
+Question: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer: The reult of merging the two together is having the master have all the changes each branch and parrent branch had. It is represented in the diagram so it is organized.
+
+Question: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Answer: The pros are that everything that is the same merges together. Another pro is that when there are different changes made, Git will tell you what is different so you can decide what to keep and what not to keep. It also organizes everything so you know which lines come from which files. A con is that you have to figure out what differs between the two and what to keep.
