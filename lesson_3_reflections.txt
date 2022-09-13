@@ -1,3 +1,17 @@
 Question: When would you want to use a remote repository rather than keeping all your work local?
 Answer: When you are not at your main computer, you are able to make changes to your work from any device.
 
+Question:Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Answer: You might want to do this so you have more control over what you are working on. 
+
+Question: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Answer: A fork is when Git Hub clones someone elses repository onto your account. A clone is when you make a copy of someone elses repository on your own computer. A branche is a part of a repository where you can test things out.
+
+Question:What is the benefit of having a copy of the last known state of the remote stored locally?
+Answer: A benefit is if something changed to the remote on GitHub, you are able to what changed and if it was a bad change, you are able to revert it with ease.
+
+Question: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Answer: I could collaborate without using GitHub by someone coming over to my house and making changes to the local file instead of online. Having merge conflicts would be easier because you could dicuss it right then and there. It would be harder to what changes were exactle made, and if unwanted changes were made, they would have to be removed. 
+
+Question: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Answer: You would want to make changes in a separate branch when you are testing sometihng. The benefits are if something breaks, it doesn't effect them master. The benefits of making changes in the master is that if everything goes well, you don't have to go through the trouble of merging the branch.
